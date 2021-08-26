@@ -15,6 +15,7 @@ AM_INIT_AUTOMAKE(foreign dist-xz serial_tests subdir-objects)
 AM_MAINTAINER_MODE([enable])
 AM_SILENT_RULES([yes])
 AC_CONFIG_MACRO_DIR([support])
+m4_include([m4/ax_prog_bison.m4])
 LT_INIT
 
 AC_ARG_ENABLE(
